@@ -3,6 +3,7 @@
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
+  ackground-image : url("https://cdn.glitch.com/f4bdbcdb-81d9-43d3-a093-d0a21af1e64a%2Fthumbnails%2FIMG_20190316_194406_762.jpg?1602255412269");
 }
 
 h1 {
@@ -10,6 +11,3 @@ h1 {
   color: #373fff;
 }
 
-intro{
-  background-image
-}
