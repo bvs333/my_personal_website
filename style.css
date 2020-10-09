@@ -21,23 +21,3 @@ h1 {
   width : 500px;
 }
 
-.topnav{
-  float : left;
-  background-color : #83FF33;
-  overflow:hidden;
-  
-}
-
-.topnav a{
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: blue;
-}
-
