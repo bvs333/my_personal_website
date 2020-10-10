@@ -14,19 +14,22 @@ h1 {
   background-image : url("https://cdn.glitch.com/f4bdbcdb-81d9-43d3-a093-d0a21af1e64a%2Fthumbnails%2FIMG_20190316_194406_762.jpg?1602255412269");
   background-repeat :no-repeat;
   padding-top : 50px;
-  width:55%;
-  height:100%;
+  width:40%;
+  height: 200px;
   margin-right:2%;
   float: left;
    padding-right : 200px;
 }
+.intro iframe{
+width:100%;
+}
+.clearfix{
+    clear:both
+}
 
 .intro-content{
-  padding-left:10px;
-    width:42%;
-    float: left;
-  padding-top : 200px;
-
+    width:4%;
+    float: left
   
 }
 
