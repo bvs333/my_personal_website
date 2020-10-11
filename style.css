@@ -15,9 +15,18 @@ p{
   
 }
 
-
+.description p{
+  font-size : 25px;
+  padding-top : 70px;
+}
+.intro-content h4{
+  padding-top:40px;
+  font-family:'Comfortaa', cursive;
+  font-size :20px;
+}
 * {
   box-sizing: border-box;
+  
 }
 .intro{
   background-image : url("https://cdn.glitch.com/f4bdbcdb-81d9-43d3-a093-d0a21af1e64a%2Fthumbnails%2FIMG_20190316_194406_762.jpg?1602255412269");
