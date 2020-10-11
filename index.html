@@ -44,7 +44,32 @@
       Hello ! 
     </h2>
     <h4 id="my_text">
-      <span class="blink"> This is Revanth. Welcome to my website.</span>
+      <span class="blink"> This </span>
+      <span class="blink1"> is </span>
+      <span class="blink2"> Revanth. </span>
+      <span class="blink3"> Welcome </span>
+      <span class="blink4"> to </span>
+      <span class="blink5"> my </span>
+      <span class="blink6"> website. </span>
+      <script>
+        function blink_text() {
+      $('.blink').fadeOut(100);
+      $('.blink').fadeIn(700);
+      $('.blink1').fadeOut(200);
+      $('.blink1').fadeIn(600);
+      $('.blink2').fadeOut(300);
+      $('.blink2').fadeIn(500); 
+      $('.blink3').fadeOut(400);
+      $('.blink3').fadeIn(400);
+      $('.blink4').fadeOut(500);
+      $('.blink4').fadeIn(300);
+      $('.blink5').fadeOut(600);
+      $('.blink5').fadeIn(200);
+      $('.blink6').fadeOut(700);
+      $('.blink6').fadeIn(100);
+      }
+      setInterval(blink_text, 100);
+      </script>
     </h4>
     <p>
     </p>

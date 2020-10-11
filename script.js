@@ -5,3 +5,8 @@
 console.log("hi");
 
 
+function blink_text() {
+    $('.blink').fadeOut(50);
+    $('.blink').fadeIn(50);
+}
+setInterval(blink_text, 500);
