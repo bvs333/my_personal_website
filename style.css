@@ -9,7 +9,9 @@ h1 {
   font-style: italic;
   color: #373fff;
 }
-
+* {
+  box-sizing: border-box;
+}
 .intro{
   background-image : url("https://cdn.glitch.com/f4bdbcdb-81d9-43d3-a093-d0a21af1e64a%2Fthumbnails%2FIMG_20190316_194406_762.jpg?1602255412269");
   background-repeat :no-repeat;
@@ -23,15 +25,21 @@ h1 {
 .intro iframe{
 width:100%;
 }
-.clearfix{
-    clear:both
-}
 
+section {
+  display: -webkit-flex;
+  display: flex;
+}
 footer {
+     position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
   background-color: #777;
   padding: 10px;
   text-align: right;
-  color: white;
 }
 
 
