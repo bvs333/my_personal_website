@@ -27,10 +27,13 @@ width:100%;
     clear:both
 }
 
-.intro-content{
-
-  
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: right;
+  color: white;
 }
+
 
 .timeline {
   list-style: none;
